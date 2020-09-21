@@ -1,0 +1,298 @@
+﻿{
+  "DataContractVersion": "1.0",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "DocumentTypes.Inspection.HomeInspection",
+      "Group": "Document Types",
+      "Category": "Inspection Form",
+      "Name": "Home Inspection",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "DocumentTypes.Inspection.HomeInspection.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "DocumentTypes.Inspection.HomeInspection.CustomerName",
+          "FieldName": "Customer Name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.Inspection.HomeInspection.CustomerAddress",
+          "FieldName": "Customer Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.Inspection.HomeInspection.ServiceCompanyAddress",
+          "FieldName": "Service Company Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.Inspection.HomeInspection.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "DD/MM/YYYY",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.Inspection.HomeInspection.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "DocumentTypes.Insurance.CommitmentforTitleInsurance",
+      "Group": "Document Types",
+      "Category": "Insurance Form",
+      "Name": "Commitment for Title Insurance",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "DocumentTypes.Insurance.CommitmentforTitleInsurance.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "DocumentTypes.Insurance.CommitmentforTitleInsurance.Signature",
+          "FieldName": "Signature",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "DocumentTypes.Insurance.OwnerPolicyofTitleInsurance",
+      "Group": "Document Types",
+      "Category": "Insurance Form",
+      "Name": "Owner Policy of Title Insurance",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "DocumentTypes.Insurance.OwnerPolicyofTitleInsurance.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "DocumentTypes.Insurance.OwnerPolicyofTitleInsurance.Signature",
+          "FieldName": "Signature",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "DocumentTypes.TaxForm.TaxBill",
+      "Group": "Document Types",
+      "Category": "Tax Form",
+      "Name": "Tax Bill",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "DocumentTypes.TaxForm.TaxBill.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "DocumentTypes.TaxForm.PropertyTax",
+      "Group": "Document Types",
+      "Category": "Tax Form",
+      "Name": "Property Tax",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "DocumentTypes.TaxForm.PropertyTax.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "DocumentTypes.TaxForm.PropertyTax.OwnerName",
+          "FieldName": "Owner Name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.TaxForm.PropertyTax.OwnerAddress",
+          "FieldName": "Owner Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.TaxForm.PropertyTax.ParcelNumber",
+          "FieldName": "Parcel Number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.TaxForm.PropertyTax.TaxYear",
+          "FieldName": "Tax Year",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "YYYY",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "DocumentTypes.TaxForm.PropertyTax.NetTaxableValue",
+          "FieldName": "Net Taxable Value",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Document Types",
+      "Categories": [
+        "Inspection Form",
+        "Insurance Form",
+        "Owner Policy of title insurance",
+        "Tax Form"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
