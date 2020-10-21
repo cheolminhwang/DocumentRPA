@@ -172,6 +172,326 @@
           "SetValues": []
         }
       ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.SignedLoanEstimate",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "Signed Loan Estimate",
+      "OptionalUniqueIdentifier": "SLE",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.LoanAmount",
+          "FieldName": "Loan Amount",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.InterestRate",
+          "FieldName": "Interest Rate",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.Applicants",
+          "FieldName": "Applicants",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.DateIssued",
+          "FieldName": "Date Issued",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "Month,Day,Year",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.RateLock-Yes",
+          "FieldName": "Rate Lock - Yes",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.SignedLoanEstimate.RateLock-No",
+          "FieldName": "Rate Lock - No",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.HUDVAAddendum",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "HUD/VA Addendum",
+      "OptionalUniqueIdentifier": "HUD",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.HUDVAAddendum.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.HUDVAAddendum.HUDFHA",
+          "FieldName": "HUD/FHA",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.HUDVAAddendum.VA",
+          "FieldName": "VA",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.HUDVAAddendum.LenderMortgageCaseNumber",
+          "FieldName": "Lender/Mortgage Case Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.HUDVAAddendum.PropertyAddress",
+          "FieldName": "Property Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.BorroweBCERTCertification",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "Borrower Certification",
+      "OptionalUniqueIdentifier": "BCERT",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.BorroweBCERTCertification.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.BorroweBCERTCertification.BorrowerName",
+          "FieldName": "Borrower Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.BorroweBCERTCertification.PropertyAddress",
+          "FieldName": "Property Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.BorroweBCERTCertification.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.4506-T",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "4506-T",
+      "OptionalUniqueIdentifier": "4506T",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.4506-T.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.4506-T.Name",
+          "FieldName": "Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.4506-T.Address",
+          "FieldName": "Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.UniformResidentialLoanApplication",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "Uniform Residential Loan Application",
+      "OptionalUniqueIdentifier": "URLA",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.UniformResidentialLoanApplication.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.UniformResidentialLoanApplication.LenderCaseNumber",
+          "FieldName": "Lender Case Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.UniformResidentialLoanApplication.SubjectPropertyAddress",
+          "FieldName": "Subject Property Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.ITOP",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "ITOP",
+      "OptionalUniqueIdentifier": "ITOP",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.ITOP.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.ITOP.LoanNumber",
+          "FieldName": "Loan Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.ITOP.DatePrepared",
+          "FieldName": "Date Prepared",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.W-2",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "W-2",
+      "OptionalUniqueIdentifier": "W-2",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.W-2.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.W-2.EmployerFedIDNumber",
+          "FieldName": "Employer Fed ID Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.W-2.Wages,tipsandOtherComp",
+          "FieldName": "Wages ,tips and Other Comp.",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SWMC.LoanDocuments.Anti-SteeringDisclosure",
+      "Group": "SWMC",
+      "Category": "Loan Documents",
+      "Name": "Anti-Steering Disclosure",
+      "OptionalUniqueIdentifier": "ASD",
+      "TypeField": {
+        "FieldId": "SWMC.LoanDocuments.Anti-SteeringDisclosure.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SWMC.LoanDocuments.Anti-SteeringDisclosure.Borrower",
+          "FieldName": "Borrower",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.Anti-SteeringDisclosure.AddressLine1",
+          "FieldName": "Address Line 1",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "SWMC.LoanDocuments.Anti-SteeringDisclosure.AddressLine2",
+          "FieldName": "Address Line 2",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
     }
   ],
   "Groups": [
@@ -182,6 +502,12 @@
         "Insurance Form",
         "Owner Policy of title insurance",
         "Tax Form"
+      ]
+    },
+    {
+      "Name": "SWMC",
+      "Categories": [
+        "Loan Documents"
       ]
     }
   ],
